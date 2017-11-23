@@ -3,4 +3,4 @@ WORKDIR /srv
 COPY . /srv/
 EXPOSE 3000
 RUN  npm install
-CMD ["nodejs”, “/srv/app"]
+CMD ["node”, “/srv/app.js"]
