@@ -1,6 +1,6 @@
 FROM node:latest
-WORKDIR /srv
-COPY . /srv/
-EXPOSE 3000
+COPY . /srv/mail
+WORKDIR /srv/mail
 RUN  npm install
-CMD ["node”, “/srv/app.js"]
+EXPOSE 3000
+CMD ["nodejs", "/srv/mail/app.js"]
