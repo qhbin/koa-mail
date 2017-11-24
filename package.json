@@ -1,5 +1,5 @@
 {
-  "name": "mail",
+  "name": "koa-mail",
   "version": "1.0.0",
   "description": "mail send",
   "main": "index.js",
